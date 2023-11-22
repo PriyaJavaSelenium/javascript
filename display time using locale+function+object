@@ -1,0 +1,10 @@
+function fetchingData(){
+    const Time = {
+        Tim:new Date()    
+};
+
+const formattedTime = Time.Tim.toLocaleTimeString();
+console.log(formattedTime);      
+}
+fetchingData();
+
