@@ -1,0 +1,6 @@
+/* 4.create Loop Over an Array with string values? */
+
+var a = ["Jackfruit","Apple","Banana","Kiwi","Durian","Grapes"];
+for(i=0;i<a.length;i++){
+    console.log(a[i])
+}
