@@ -1,0 +1,15 @@
+// printing date month year in seperate lines
+
+function numOfDays() {
+   const d = new Date();
+   console.log(d);
+   const day = d.getDate();
+    console.log(day);
+   const month = d.getMonth()+1;
+    console.log(month);
+   const Year = d.getFullYear();
+    console.log(Year);
+}
+
+numOfDays()
+               
