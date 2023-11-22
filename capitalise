@@ -1,0 +1,12 @@
+/*3. Write a code to capitalize that takes a string?
+Test Data :
+
+capitalize('whoop')
+capitalize('oh hey hi')
+Expected Output :
+
+WHOOP
+OH HEY HI */
+
+var stri = prompt("Enter a string: ")
+console.log(stri.toLowerCase());
