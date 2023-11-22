@@ -1,0 +1,10 @@
+const employee = {
+    name : "Mohanapriya", // key value : pair value
+    dept : "Information Technology",
+    empnum : 1002
+};
+console.log(employee.name) //object name.keyvalue
+console.log(employee.dept)
+console.log(employee.empnum)
+
+
