@@ -1,0 +1,17 @@
+/* 6.Write a JavaScript program to find the largest of three integers. */
+
+var firstNum = prompt("Enter the First Number: ")
+var secondNum = prompt("Enter the Second Number: ")
+var thirdNum = prompt("Enter the Third Number: ")
+if (firstNum>secondNum && firstNum>thirdNum){
+    console.log("First num " + firstNum + " is largest")
+}
+else if(secondNum>firstNum && secondNum>thirdNum){
+    console.log("Second num " + secondNum + " is largest")
+}
+else if(thirdNum>firstNum && thirdNum>secondNum){
+    console.log("Third num " + thirdNum + " is largest")
+}
+else{
+    console.log("Invalid Number")
+}
