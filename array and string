@@ -1,0 +1,19 @@
+/* 1.Here you are provided with a string to work with. We'd like you to:
+
+Convert the string into an array, removing the + characters in the process.
+ Save the result in a variable called myArray.
+Store the length of the array in a variable called arrayLength.
+Store the last item in the array in a variable called lastItem. */
+
+var stri = prompt("Enter a string: ")
+var myArray = stri.split(" ")
+console.log(myArray)
+
+var arrayLength = myArray.length
+console.log("Length of the array: " + arrayLength)
+
+var lastItem = myArray[myArray.length-1]
+console.log("Last item: " + lastItem)
+
+
+
