@@ -1,0 +1,9 @@
+/* 5.Remove From the end of an Array
+EXAMPLE
+var a = ['first', 'second', 'third'];
+ */ 
+
+var a = ['first', 'second', 'third'];
+a.pop()
+console.log(a)
+
