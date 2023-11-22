@@ -1,0 +1,10 @@
+//1.Write a JavaScript function to get the current date.
+
+function fetchingDate(){
+    
+    const Tme = new Date()  // first create an object using new 
+    
+    const cDate = Tme.toLocaleDateString()
+   console.log(cDate) // print    
+}
+fetchingDate() // call function
