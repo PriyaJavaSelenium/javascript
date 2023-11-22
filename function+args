@@ -1,0 +1,8 @@
+/* Write a function that takes two numbers as arguments and returns their sum */
+
+
+function myfun(a,b){
+    return a+b
+}
+
+myfun(5,6);
