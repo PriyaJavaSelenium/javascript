@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Practice</title>
+</head>
+<body>
+   
+    <input type="button" id="color" value="submit" onclick="Mouse()" >
+
+<script>
+document.getElementById("color").addEventListener(onclick,Mouse)
+function Mouse(){
+    alert("Hai")
+}
+</script>
+</body>
+</html>
